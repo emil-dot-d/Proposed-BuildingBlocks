@@ -1,0 +1,61 @@
+
+# RemotiveTopology
+
+## BB-CMU, BB-CSC-TC
+
+## Automotive Cloud - Virtualization 
+(bring up the functionality of a vehicle in a virtual environment in an internal cloud environment)
+
+## Cloud / could also run locally on a developer (Linux) computer
+
+## https://remotivelabs.com/remotivetopology/
+
+## ID (unique name)
+
+## Description
+Mock platforms virtually running in a soft environment. 
+Run the same test on a developer laptop & CI/CD pipeline of choice. 
+RemotiveTopology’s modularity enables smoother SIL to HIL transition. 
+Develop your software and test it without the target hardware in place and then move the complete solution to the vehicle a.k.a. the ”physical twin”.
+
+## Rationale
+RemotiveTopology makes it possible to test ECUs as well as doing integration testing of core computers – before you have all involved ECUs in place. 
+Don’t sit around waiting for hardware, for access to HIL rigs or for other teams to complete their ECU software. 
+Start testing your software straight away, on your own laptop or in a CI/CD pipeline of your choice.
+
+## Governance Applicable S-BB(s)
+None
+
+## Compose BB(s)
+
+## What is needed to Design and Implement
+Linux computer or cloud instance
+
+## What is needed to build and run
+See above
+
+## Non-Functional Requirements
+None
+
+## Dependencies to other Clusters
+Up to the client, flexible platform that can be connected to test frameworks, simulators etc 
+
+## Vehicle API Relevant
+Supports relevant vehicle networks as CAN and SOME/IP 
+
+## Emil Dautovic/RemotiveLabs
+
+## Priority
+<!-- High, Medium, Low -->
+
+## Related Project(s)
+Not yet, 
+
+## The core RemotiveLab components are Commercial Closed Source but reference integrations will be made available as source code
+
+## Availability of API
+RemotiveBroker, that is a key component of RemotiveTopology to mock ECUs, is described at https://github.com/remotivelabs 
+
+## Potential obstacles
+
+## Expert Discussion Status
